@@ -1,6 +1,6 @@
 # Minecraft Datapack To Commands
 
-A project that aims to make the export from [Particle converter](https://github.com/kemo14331/Particle-Converter/tree/main) .mcmeta files and turn them into command block creations to use datapacks in completley vanilla
+A project that aims to make the export from [Particle converter](https://github.com/kemo14331/Particle-Converter/tree/main) .mcfunction files and turn them into command block creations to use datapacks in completley vanilla
 
 # How to use:
 
@@ -8,7 +8,7 @@ In the directory type `pip install -r requirements.txt`
 
 Use [Particle converter](https://github.com/kemo14331/Particle-Converter/tree/main) and set the mode to Relative Local then configure everything
 
-Next open the exported .mcmeta and copy its contents to commands.txt Empty lines and line with # will be ignored
+Next open the exported .mcfunction and copy its contents to commands.txt Empty lines and line with # will be ignored
 
 Using the terminal run `py main.py`
 
