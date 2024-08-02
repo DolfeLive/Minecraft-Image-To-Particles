@@ -5,7 +5,7 @@ A project that aims to make the export from "ParticleConverter.1.0.4" .mcmeta fi
 
 How to use:
 
-Use (Particle converter)[https://github.com/kemo14331/Particle-Converter/tree/main] and get set the mode to Relative Local then configure everything
+Use [Particle converter](https://github.com/kemo14331/Particle-Converter/tree/main) and get set the mode to Relative Local then configure everything
 
 Next open the exported .mcmeta and copy its contents to commands.txt Empty lines and line with # will be ignored
 
