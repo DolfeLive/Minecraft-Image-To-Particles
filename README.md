@@ -2,7 +2,7 @@
 
 A project that aims to make the export from **[Particle converter](https://github.com/kemo14331/Particle-Converter/tree/main)** .mcfunction files and turn them into command block creations to use datapacks in completley vanilla
 
-[link text](image.png "ALT TEXT")
+[[images/icon.png]]
 
 # How to use:
 
