@@ -4,6 +4,14 @@ A project that aims to make the export from **[Particle converter](https://githu
 
 <img src="Images/Example.png">
 
+# Warnings
+
+**Very** Laggy
+
+Made for minecarft 1.21 should work for some older versions but idk
+
+Can **seriously** hurt mspt and tps
+
 # How to use:
 
 In the directory type `pip install -r requirements.txt`
