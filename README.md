@@ -24,3 +24,7 @@ The commands are split into 32,000 chunks of charcters due to command blocks cha
 
 Next run copy.py
 It will automaticly copy every command 1 by one into your clipboard, press p to go to the next command
+
+Pase each command into a command block and activate it
+
+Hook up all of the command blocks together and power it
