@@ -5,11 +5,13 @@ A project that aims to make the export from "ParticleConverter.1.0.4" .mcmeta fi
 
 How to use:
 
-Use [Particle converter](https://github.com/kemo14331/Particle-Converter/tree/main) and get set the mode to Relative Local then configure everything
+in the directory type pip install -r requirements.txt
+
+Use [Particle converter](https://github.com/kemo14331/Particle-Converter/tree/main) and set the mode to Relative Local then configure everything
 
 Next open the exported .mcmeta and copy its contents to commands.txt Empty lines and line with # will be ignored
 
-using the terminal run main.py
+Using the terminal run main.py
 
 Set the mode r or i
 R = Repeating
@@ -18,3 +20,7 @@ I = Impulse
 Repeating means when activated it will repeat every tick
 Impulse makes it happen once
 
+The commands are split into 32,000 chunks of charcters due to command blocks charter limit, you can disable this in settings.
+
+Next run copy.py
+It will automaticly copy every command 1 by one into your clipboard, press p to go to the next command
