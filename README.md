@@ -8,7 +8,7 @@ A project that aims to make the export from **[Particle converter](https://githu
 
 **Very** Laggy
 
-Made for minecarft 1.21 should work for some older versions but idk
+Made for Minecraft 1.21 should work for some older versions but idk
 
 Can **seriously** hurt mspt and tps
 
@@ -43,6 +43,4 @@ Spawn a armor stand and add a tag to it (Can be anything like player, mobs, ect 
 
 Hook up all of the command blocks together and power them
 
-
 <img src="Images/icon.png">
-
