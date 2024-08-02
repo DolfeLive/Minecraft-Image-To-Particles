@@ -6,6 +6,7 @@ count = 0
 
 # SkipWhite can be good if you want transparency
 SkipWhite = True
+SkipBlack = False
 
 RepeatingOrImpulse = input("Repeating or inpulse, please put a r or i in as a answer: ").lower()
 isImpulse = 'i' in RepeatingOrImpulse
@@ -18,11 +19,16 @@ def correct_command(command):
     match = re.search(r'particle minecraft:dust (\d+(\.\d+)?) (\d+(\.\d+)?) (\d+(\.\d+)?) (\d+(\.\d+)?)', command)
     if match:
         color = [match.group(1), match.group(3), match.group(5)]
-        scale = match.group(7)
         
         if SkipWhite == True and all(float(c) >= 0.95 for c in color):
             print(f"Skipping white particle command: {command}")
             return None
+        
+        if SkipBlack == True and all(float(c) <= 0.05 for c in color):
+            print(f"Skipping black particle command: {command}")
+            return None
+            
+        scale = match.group(7)
         
         new_particle_format = f"minecraft:dust{{color:[{', '.join(color)}], scale:{scale}}}"
         corrected_command = re.sub(r'particle minecraft:dust \d+(\.\d+)? \d+(\.\d+)? \d+(\.\d+)? \d+(\.\d+)?', f'particle {new_particle_format}', command)
