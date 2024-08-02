@@ -2,7 +2,7 @@
 
 A project that aims to make the export from **[Particle converter](https://github.com/kemo14331/Particle-Converter/tree/main)** .mcfunction files and turn them into command block creations to use datapacks in completley vanilla
 
-<img src="Images/icon.png">
+<img src="Images/Example.png">
 
 # How to use:
 
@@ -34,3 +34,7 @@ Pase each command into a command block and activate it
 Spawn a armor stand and add a tag to it (Can be anything like player, mobs, ect (Armor stand is a example but reccomened for most effects that are static)) that is the same as what you entered in on main.py
 
 Hook up all of the command blocks together and power them
+
+
+<img src="Images/icon.png">
+
