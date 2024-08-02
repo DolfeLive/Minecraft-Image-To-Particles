@@ -1,6 +1,6 @@
-# Minecraft-Image-To-Particles
+# Minecraft Datapack To Commands
 
-A project that aims to make the export from "ParticleConverter.1.0.4" .mcmeta files and turn them into command block creations to use datapacks in completley vanilla
+A project that aims to make the export from [Particle converter](https://github.com/kemo14331/Particle-Converter/tree/main) .mcmeta files and turn them into command block creations to use datapacks in completley vanilla
 
 # How to use:
 
